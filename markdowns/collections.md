@@ -112,7 +112,7 @@ In the following exercise you have to implement the `pairs` and `evenOdd` functi
 
 @[Implement the pairs and evenOdd functions]({"stubs": ["rangeZip.py"], "command": "python3 testRangeZip.py"})
 
-The `enumerate` function iterates through a collection a yields the index and the item at the same time. With `enumerate` you can write: 
+The `enumerate` function iterates through a collection and yields the index and the item at the same time. With `enumerate` you can write: 
 ```python
 for index,character in enumerate(characterList):
     doSomethingWithIndexAndCharater()
